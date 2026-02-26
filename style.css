@@ -83,3 +83,10 @@ footer{
     color: rgb(0, 116, 10);
     font-family: 'Times New Roman', Times, serif;
 }
+
+#canarinho{
+    position: fixed;
+    bottom: 20px;
+    right: 12px;
+    width: 100px;
+}
