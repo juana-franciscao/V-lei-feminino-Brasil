@@ -25,10 +25,10 @@ nav {
 #noticias{
     display: flex;
     flex-wrap: wrap;
-   justify-content: space-around;
-   background-color: rgb(240, 255, 154) ;
-   border-radius: 20px;
-   margin: 20px;
+    justify-content: space-around;
+    background-color: rgb(240, 255, 154);
+    border-radius: 20px;
+    margin: 20px;
 
 }
 
@@ -68,6 +68,7 @@ footer{
    margin: 20px;
    text-align: center;
 
+
 }
 
 .img_jogadora{
@@ -77,6 +78,7 @@ footer{
 
 #titulo_escalacao{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -89,4 +91,12 @@ footer{
     bottom: 20px;
     right: 12px;
     width: 100px;
+}
+
+#escalacao{
+    justify-content: space-around;
+    background-color: rgb(240, 255, 154) ;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
 }
